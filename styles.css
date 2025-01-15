@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0 0 #EFEFEF, 4px 4px 0 0 #000;
+    margin-top: 20px;
+}
